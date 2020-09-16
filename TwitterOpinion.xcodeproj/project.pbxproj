@@ -3,19 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2485A132251260BA007113D7 /* exampleSecrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2485A12C251260BA007113D7 /* exampleSecrets.plist */; };
 		24D41CBD250A1A5E0040CB12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D41CBC250A1A5E0040CB12 /* AppDelegate.swift */; };
 		24D41CBF250A1A5E0040CB12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D41CBE250A1A5E0040CB12 /* SceneDelegate.swift */; };
 		24D41CC1250A1A5E0040CB12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D41CC0250A1A5E0040CB12 /* ViewController.swift */; };
 		24D41CC4250A1A5F0040CB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D41CC2250A1A5F0040CB12 /* Main.storyboard */; };
 		24D41CC6250A1A600040CB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D41CC5250A1A600040CB12 /* Assets.xcassets */; };
 		24D41CC9250A1A600040CB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D41CC7250A1A600040CB12 /* LaunchScreen.storyboard */; };
+		24D41CD1250A64EB0040CB12 /* TwitterSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 24D41CD0250A64EB0040CB12 /* TwitterSentimentClassifier.mlmodel */; };
+		24D41CE5250A77840040CB12 /* SwifteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D41CDB250A77400040CB12 /* SwifteriOS.framework */; };
+		24D41CE6250A77840040CB12 /* SwifteriOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 24D41CDB250A77400040CB12 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24D41CE9250A79530040CB12 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24D41CE8250A79530040CB12 /* Secrets.plist */; };
+		9D39CE552D0A4576A1DE4103 /* Pods_TwitterOpinion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39984692A2F1BC1A6D1AE84D /* Pods_TwitterOpinion.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		24D41CDA250A77400040CB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		24D41CDC250A77400040CB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		24D41CDE250A77400040CB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		24D41CE0250A77400040CB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		24D41CE2250A77400040CB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F6B4D5751C7BAC4500E06514;
+			remoteInfo = SwifterTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		24D41CE7250A77840040CB12 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				24D41CE6250A77840040CB12 /* SwifteriOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		114D995D249C048BFC508435 /* Pods-TwitterOpinion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterOpinion.debug.xcconfig"; path = "Target Support Files/Pods-TwitterOpinion/Pods-TwitterOpinion.debug.xcconfig"; sourceTree = "<group>"; };
+		2485A12C251260BA007113D7 /* exampleSecrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = exampleSecrets.plist; sourceTree = "<group>"; };
 		24D41CB9250A1A5E0040CB12 /* TwitterOpinion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterOpinion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D41CBC250A1A5E0040CB12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D41CBE250A1A5E0040CB12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +84,11 @@
 		24D41CC5250A1A600040CB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D41CC8250A1A600040CB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24D41CCA250A1A600040CB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D41CD0250A64EB0040CB12 /* TwitterSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TwitterSentimentClassifier.mlmodel; sourceTree = "<group>"; };
+		24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = ../../Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		24D41CE8250A79530040CB12 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		39984692A2F1BC1A6D1AE84D /* Pods_TwitterOpinion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwitterOpinion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73F38279C56EA2B64B2AE0D /* Pods-TwitterOpinion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitterOpinion.release.xcconfig"; path = "Target Support Files/Pods-TwitterOpinion/Pods-TwitterOpinion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +96,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D41CE5250A77840040CB12 /* SwifteriOS.framework in Frameworks */,
+				9D39CE552D0A4576A1DE4103 /* Pods_TwitterOpinion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245A4B19175032E3E2630EBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				114D995D249C048BFC508435 /* Pods-TwitterOpinion.debug.xcconfig */,
+				D73F38279C56EA2B64B2AE0D /* Pods-TwitterOpinion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		24D41CB0250A1A5E0040CB12 = {
 			isa = PBXGroup;
 			children = (
+				24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */,
 				24D41CBB250A1A5E0040CB12 /* TwitterOpinion */,
 				24D41CBA250A1A5E0040CB12 /* Products */,
+				24D41CE4250A77840040CB12 /* Frameworks */,
+				245A4B19175032E3E2630EBE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +142,31 @@
 				24D41CC5250A1A600040CB12 /* Assets.xcassets */,
 				24D41CC7250A1A600040CB12 /* LaunchScreen.storyboard */,
 				24D41CCA250A1A600040CB12 /* Info.plist */,
+				24D41CD0250A64EB0040CB12 /* TwitterSentimentClassifier.mlmodel */,
+				2485A12C251260BA007113D7 /* exampleSecrets.plist */,
+				24D41CE8250A79530040CB12 /* Secrets.plist */,
 			);
 			path = TwitterOpinion;
+			sourceTree = "<group>";
+		};
+		24D41CD3250A773F0040CB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D41CDB250A77400040CB12 /* SwifteriOS.framework */,
+				24D41CDD250A77400040CB12 /* SwifterMac.framework */,
+				24D41CDF250A77400040CB12 /* SwifterDemoiOS.app */,
+				24D41CE1250A77400040CB12 /* SwifterDemoMac.app */,
+				24D41CE3250A77400040CB12 /* SwifterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D41CE4250A77840040CB12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39984692A2F1BC1A6D1AE84D /* Pods_TwitterOpinion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24D41CCD250A1A600040CB12 /* Build configuration list for PBXNativeTarget "TwitterOpinion" */;
 			buildPhases = (
+				64A2A90F7CDE02A6C7B32387 /* [CP] Check Pods Manifest.lock */,
 				24D41CB5250A1A5E0040CB12 /* Sources */,
 				24D41CB6250A1A5E0040CB12 /* Frameworks */,
 				24D41CB7250A1A5E0040CB12 /* Resources */,
+				24D41CE7250A77840040CB12 /* Embed Frameworks */,
+				F2803165CE24AECDB4022617 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,6 +218,12 @@
 			mainGroup = 24D41CB0250A1A5E0040CB12;
 			productRefGroup = 24D41CBA250A1A5E0040CB12 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 24D41CD3250A773F0040CB12 /* Products */;
+					ProjectRef = 24D41CD2250A773F0040CB12 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				24D41CB8250A1A5E0040CB12 /* TwitterOpinion */,
@@ -120,12 +231,52 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		24D41CDB250A77400040CB12 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 24D41CDA250A77400040CB12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24D41CDD250A77400040CB12 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 24D41CDC250A77400040CB12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24D41CDF250A77400040CB12 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 24D41CDE250A77400040CB12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24D41CE1250A77400040CB12 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 24D41CE0250A77400040CB12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		24D41CE3250A77400040CB12 /* SwifterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterTests.xctest;
+			remoteRef = 24D41CE2250A77400040CB12 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		24D41CB7250A1A5E0040CB12 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2485A132251260BA007113D7 /* exampleSecrets.plist in Resources */,
 				24D41CC9250A1A600040CB12 /* LaunchScreen.storyboard in Resources */,
+				24D41CE9250A79530040CB12 /* Secrets.plist in Resources */,
 				24D41CC6250A1A600040CB12 /* Assets.xcassets in Resources */,
 				24D41CC4250A1A5F0040CB12 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +284,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64A2A90F7CDE02A6C7B32387 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwitterOpinion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2803165CE24AECDB4022617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterOpinion/Pods-TwitterOpinion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TwitterOpinion/Pods-TwitterOpinion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TwitterOpinion/Pods-TwitterOpinion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24D41CB5250A1A5E0040CB12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				24D41CC1250A1A5E0040CB12 /* ViewController.swift in Sources */,
+				24D41CD1250A64EB0040CB12 /* TwitterSentimentClassifier.mlmodel in Sources */,
 				24D41CBD250A1A5E0040CB12 /* AppDelegate.swift in Sources */,
 				24D41CBF250A1A5E0040CB12 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +476,7 @@
 		};
 		24D41CCE250A1A600040CB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114D995D249C048BFC508435 /* Pods-TwitterOpinion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +495,7 @@
 		};
 		24D41CCF250A1A600040CB12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73F38279C56EA2B64B2AE0D /* Pods-TwitterOpinion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
